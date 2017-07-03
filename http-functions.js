@@ -17,7 +17,4 @@ function printHTML (html) {
   console.log(html);
 }
 
-module.exports =  {
-  getHTML: getHTML,
-  printHTML: printHTML
-}
+module.exports =  getHTML;
